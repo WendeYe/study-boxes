@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Study Boxes">
+  <rect x="3" y="3" width="58" height="58" rx="13" fill="#171d25"/>
+  <path d="M16 25c0-4 3-7 7-7h18c4 0 7 3 7 7v4H16v-4Z" fill="#4f5f72"/>
+  <rect x="21" y="15" width="22" height="10" rx="3" fill="#e8edf0"/>
+  <rect x="14" y="28" width="36" height="24" rx="6" fill="#f4f2e8"/>
+  <path d="M43 28h7v18c0 3-3 6-6 6h-4c2-2 3-5 3-8V28Z" fill="#c4ced8"/>
+  <path d="M22 36h17M22 42h12" stroke="#283342" stroke-width="3.5" stroke-linecap="round" opacity="0.18"/>
+  <rect x="38" y="38" width="14" height="14" rx="4" fill="#f47a3d"/>
+  <path d="M42 45l3 3 6-7" fill="none" stroke="#fffaf0" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

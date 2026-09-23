@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Study Boxes, a local-first macOS menu bar app for focused study setups.">
+    <meta name="theme-color" content="#f3f0e7" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#152128" media="(prefers-color-scheme: dark)">
+    <title>Study Boxes | Wende</title>
+    <link rel="icon" href="assets/favicon.ico" sizes="any">
+    <link rel="icon" href="assets/favicon-light.svg" type="image/svg+xml" media="(prefers-color-scheme: light)">
+    <link rel="icon" href="assets/favicon-dark.svg" type="image/svg+xml" media="(prefers-color-scheme: dark)">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    <link rel="manifest" href="assets/site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Study Boxes home">
+        <picture>
+          <source srcset="assets/favicon-dark.svg" media="(prefers-color-scheme: dark)">
+          <img src="assets/favicon-light.svg" width="34" height="34" alt="">
+        </picture>
+        <span>Study Boxes</span>
+      </a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#how">How it works</a>
+        <a href="#focus">Focus</a>
+        <a href="#build">Privacy</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero-clean section">
+        <p class="kicker">Local-first study launcher for macOS</p>
+        <h1>Your study setup, ready in one click.</h1>
+        <p class="lead">
+          Study Boxes opens the exact files, folders, apps, links, notes, and tasks you need for a
+          course, exam, assignment, or topic, so you can start studying instead of rebuilding your workspace.
+        </p>
+        <div class="actions" aria-label="Page actions">
+          <a class="button primary" href="#how">See how it works</a>
+          <a class="button" href="#focus">Focus features</a>
+        </div>
+        <p class="student-note">Built by a student, for students.</p>
+
+        <figure class="hero-visual">
+          <img src="assets/study-boxes-preview.svg" width="960" height="640" alt="Study Boxes app dashboard preview">
+        </figure>
+      </section>
+
+      <section class="section benefit-grid" aria-label="Study Boxes benefits">
+        <article>
+          <span class="benefit-icon" aria-hidden="true">01</span>
+          <h2>Everything for one class in one place.</h2>
+          <p>Keep the PDF, exercise sheet, Moodle link, GitHub repo, notes, and checklist together.</p>
+        </article>
+
+        <article>
+          <span class="benefit-icon" aria-hidden="true">02</span>
+          <h2>Start with the next task, not the setup.</h2>
+          <p>Pick up where you left off with the right resources, checklist, and session context already together.</p>
+        </article>
+
+        <article>
+          <span class="benefit-icon" aria-hidden="true">03</span>
+          <h2>Built for students, not window management.</h2>
+          <p>Study Boxes is a study launcher, checklist, and session tracker, not another generic organizer.</p>
+        </article>
+      </section>
+
+      <section id="how" class="section split-section">
+        <div class="section-copy">
+          <p class="kicker">How it works</p>
+          <h2>Create a box once. Reuse it every time you study.</h2>
+          <p>
+            Each Study Box is built around one subject, exam, assignment, or topic. When the
+            session starts, the box opens the right resources and keeps your next tasks visible.
+          </p>
+        </div>
+
+        <ol class="steps">
+          <li>
+            <span>Create</span>
+            <strong>Make a Study Box for a course, exam, assignment, or topic.</strong>
+          </li>
+          <li>
+            <span>Collect</span>
+            <strong>Add apps, files, folders, websites, LMS links, notes, and tasks.</strong>
+          </li>
+          <li>
+            <span>Start</span>
+            <strong>Open the setup, see what is next, and continue where you left off.</strong>
+          </li>
+        </ol>
+      </section>
+
+      <section id="focus" class="section split-section reverse">
+        <div class="section-copy">
+          <p class="kicker">Focus</p>
+          <h2>Fewer loose ends before the work begins.</h2>
+          <p>
+            The goal is not to block the whole internet. It is to remove the repeated setup loop:
+            finding materials, checking what is next, and reopening the same links every session.
+          </p>
+        </div>
+
+        <div class="focus-card">
+          <h3>Quiet the apps you are not using</h3>
+          <p>
+            When a session starts, Study Boxes can hide unrelated apps so your study materials stay
+            in front. If your box opens websites, your browser stays visible.
+          </p>
+        </div>
+      </section>
+
+      <section id="build" class="section privacy-section">
+        <div>
+          <p class="kicker">Privacy</p>
+          <h2>Made for privacy and offline study.</h2>
+          <p>
+            Study Boxes keeps your materials organized locally, so your setup is still useful when
+            Wi-Fi is bad, the LMS is slow, or you simply want fewer accounts involved.
+          </p>
+        </div>
+
+        <ul class="privacy-list">
+          <li><span>Works locally</span><strong>Your boxes live on your Mac.</strong></li>
+          <li><span>Useful offline</span><strong>Files, folders, notes, and tasks stay available.</strong></li>
+          <li><span>No scraping</span><strong>Course sites stay as links.</strong></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>&copy; <span data-year></span> Wende</span>
+      <span>Study Boxes is in early development.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

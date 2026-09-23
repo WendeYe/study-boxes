@@ -1,0 +1,19 @@
+.DS_Store
+.build/
+dist/
+DerivedData/
+*.xcresult
+*.xccheckout
+xcuserdata/
+*.xcuserstate
+
+# Local exports and diagnostics may contain study names, paths, or URLs.
+/import.json
+/StudyBoxes-*.json
+/StudyBoxes-Diagnostics-*.txt
+
+*.env
+.env
+.env.*
+!.env.example
+!*.env.example
